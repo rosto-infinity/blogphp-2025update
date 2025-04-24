@@ -35,7 +35,7 @@ if (isset($_POST['login'])) {
                   break;
 
               default:
-                  header("Location: layouts/usersfrgjkfdghdf/user_dashboarddqzdDDqdq.php");
+                  header("Location: user.php");
                   break;
           }
       } else {

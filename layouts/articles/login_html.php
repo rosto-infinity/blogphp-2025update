@@ -10,7 +10,7 @@
         <label for="email">Nom d'utilisateur ou l'émail</label>
         <input type="text" id="email" placeholder="rostodev" autocomplete="off" name="email">
       </div>
-      //
+   
       <div class=" form-control">
         <label for="password">Mot de passe <a class="passforget" href="#remember.php">(J'ai oublié mon mot de
             passe)</a>
