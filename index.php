@@ -1,6 +1,11 @@
 <?php
 require_once 'database/database.php';
 
+//recuperation des articles de la base de donnees
+
+$resultats = $pdo->query("SELECT *FROM articles ORDER BY created_at DESC");
+$articles = $resultats->fetchAll();
+
 // 1--On affiche le titre autre
 
 $pageTitle ='Accueil du Blog'; 

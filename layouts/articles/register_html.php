@@ -3,7 +3,7 @@
     <div class="header">
       <h2>S'inscrire</h2>
     </div>
-
+//ht
 
     <form action="register" class="form" id="form" method="post" enctype="multipart/form-data">
 

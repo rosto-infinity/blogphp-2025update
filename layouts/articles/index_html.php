@@ -1,10 +1,9 @@
 <h1>Listes des articles</h1>
-
 <hr>
 <div>
-  <h2> Titre article </h2>
-
-  <p> Extrait </p>
-
-  <a href="#">Voir plus</a>
+  <?php foreach( $articles as $article) : ?>
+  <h2> <?= $article['title'] ?></h2>
+  <p> <?= $article['introduction'] ?>  </p>
+  <a href="article.php?id=<?= $article['id'] ?>">Voir plus</a>
+  <?php endforeach ?>
 </div>
